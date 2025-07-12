@@ -69,3 +69,7 @@ huggingface-cli download --resume-download  google-bert/bert-base-uncased --loca
 
 # NIC used
 huggingface-cli download --resume-download stable-diffusion-v1-5/stable-diffusion-v1-5 --local-dir stable-diffusion-v1-5/stable-diffusion-v1-5
+huggingface-cli download --resume-download timm/vit_large_patch14_clip_224.openai --local-dir timm/vit_large_patch14_clip_224.openai
+huggingface-cli download --resume-download CompVis/stable-diffusion-v-1-4-original --local-dir CompVis/stable-diffusion-v-1-4-original
+huggingface-cli download --resume-download openai/clip-vit-large-patch14 --local-dir openai/clip-vit-large-patch14
+huggingface-cli download --resume-download kakaobrain/align-base --local-dir kakaobrain/align-base
